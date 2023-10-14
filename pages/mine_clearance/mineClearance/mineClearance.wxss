@@ -1,0 +1,118 @@
+/**mineClearance.wxss**/
+
+.page-container {
+  height: 100%;
+}
+
+.music-img {
+  position: absolute;
+  top: 45rpx;
+  right: 45rpx;
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 30rpx;
+}
+
+.music-img-playing {
+  top: 40rpx;
+  right: 40rpx;
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 35rpx;
+}
+
+.btn-inline {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn {
+  border: 2rpx solid dimgray;
+  color: rgb(0, 132, 255);
+}
+
+.btn-active {
+  border: 2rpx solid rgb(107, 196, 248);
+  background: -webkit-linear-gradient(left, #0077ff, #59a1ff, #82d7ff);
+  color: white;
+}
+
+.mine-panel {
+  display: flex;
+  flex-direction: column;
+  border: 1rpx solid gray;
+  padding: 2rpx;
+  margin: 10rpx 0;
+}
+
+.mine-panel-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.mine-cell {
+  width: 60rpx;
+  height: 60rpx;
+  border-top: 1rpx solid #fff;
+  border-left: 1rpx solid #fff;
+  border-radius: 5rpx;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  box-sizing: content-box;
+}
+
+.mine-cell-image {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 14rpx;
+}
+
+.mine-cover {
+  background-color: #a0a0a0;
+  width: 100%;
+  height: 100%;
+  margin: 1rpx 0 0 1rpx;
+  opacity: 0.65;
+}
+
+.mine-number {
+  align-self: center;
+  color: black;
+  opacity: 0.9;
+}
+
+.mine-number-1 {
+  color: blue;
+}
+
+.mine-number-2 {
+  color: green;
+}
+
+.mine-number-3 {
+  color: purple;
+}
+
+.mine-number-4 {
+  color: orange;
+}
+
+.mine-number-5 {
+  color: pink;
+}
+
+.mine-number-6 {
+  color: rebeccapurple;
+}
+
+.mine-number-7 {
+  color: yellow;
+}
+
+.mine-number-8 {
+  color: red;
+}

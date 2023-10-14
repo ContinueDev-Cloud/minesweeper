@@ -1,0 +1,17 @@
+{
+	"pages": [
+		"pages/mine_clearance/chooseLevel/chooseLevel",
+		"pages/mine_clearance/mineClearance/mineClearance"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#73c7ff",
+		"navigationBarTitleText": "扫雷",
+		"navigationBarTextStyle": "black"
+	},
+	"style": "v2",
+	"sitemapLocation": "sitemap.json",
+	"miniApp": {
+		"useAuthorizePage": true
+	}
+}

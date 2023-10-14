@@ -1,0 +1,14 @@
+<!--chooseLevel.wxml-->
+<view class="container">
+  <image src="/assets/logo.png" style="width: 200px; height: 200px;"></image>
+  <view style="font-size: 20px; height: 100rpx;">请选择关卡</view>
+  <view class="main">
+    <button class="btn" style="height: 100rpx;" bind:tap="chooseLevel" data-level="simple">简 单</button>
+    <button class="btn" style="height: 100rpx;" bind:tap="chooseLevel" data-level="difficult">一 般</button>
+    <button class="btn" style="height: 100rpx;" bind:tap="chooseLevel" data-level="terrible">困 难</button>
+    <!-- <button class="btn" style="height: 80rpx;" bind:tap="chooseLevel" data-level="epic">史 诗</button>
+    <button class="btn" style="height: 80rpx;" bind:tap="chooseLevel" data-level="legend">传 说</button>
+    <button class="btn" style="height: 80rpx;" bind:tap="chooseLevel" data-level="mythology">神 话</button> -->
+    <view style="font-size: 10px; height: 10rpx; color: darkgrey">©环宇科创团队 2023 - 科创+开源计划基础应用程序</view>
+  </view>
+</view>

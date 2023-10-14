@@ -1,0 +1,33 @@
+/**chooseLevel.wxss**/
+
+.btn {
+    /*按钮背景样式*/
+  background: -webkit-linear-gradient(left, #0077ff, #59a1ff, #82d7ff);
+  /*按钮边缘样式*/
+  border-left: 2px solid white;
+  border-top: 2px solid white;
+  border-right: 2px solid darkgray;
+  border-bottom: 2px solid darkgray;
+    /*按钮边角*/
+  border-radius: 20rpx;
+    /*按钮间距*/
+  margin-bottom: 100rpx;
+  display: flex;  /*display容器*/
+  justify-content: center;
+  align-items: center;
+    /*按钮内字体颜色*/
+  color: white;
+}
+
+.view {
+  margin: 100vw
+}
+  /*背景音乐图片样式*/
+.music-img {
+  position: absolute;
+  top: 45rpx;
+  right: 45rpx;
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 30rpx;
+}
