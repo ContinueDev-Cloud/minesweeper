@@ -11,6 +11,7 @@
 #### 最新版本
 [v1.0.0版本下载](https://gitee.com/hykc-information/minesweeper/releases/download/v1.0.0/minesweeper-v1.0.0.apk)
 #### 过往版本
+暂无
 
 ### 环宇科创团队公众号
 ![环宇科创公众号](https://foruda.gitee.com/images/1697297888025013597/e7a35b0d_11404214.png "下载 (2).png")
